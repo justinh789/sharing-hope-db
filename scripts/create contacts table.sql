@@ -10,8 +10,8 @@ CREATE TABLE IF NOT EXISTS charity.contacts
 	contact_tel text COLLATE pg_catalog."default",
 	contact_cell text COLLATE pg_catalog."default",
 	contact_fax text COLLATE pg_catalog."default",
-    created_on timestamp without time zone NOT NULL,
-    updated_on timestamp without time zone
+    created_on_utc timestamp without time zone NOT NULL,
+    updated_on_utc timestamp without time zone,
     CONSTRAINT contacts_organization_id_fkey FOREIGN KEY (organization_id)
         REFERENCES charity.organizations (id) MATCH SIMPLE
         ON UPDATE NO ACTION

@@ -21,8 +21,8 @@ CREATE TABLE IF NOT EXISTS charity.locations
     district text COLLATE pg_catalog.default,
     municipality text COLLATE pg_catalog.default,
 	longitude_latitude point,
-    created_on timestamp without time zone NOT NULL,
-    updated_on timestamp without time zone
+    created_on_utc timestamp without time zone NOT NULL,
+    updated_on_utc timestamp without time zone
 )
 
 TABLESPACE pg_default;

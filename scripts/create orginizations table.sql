@@ -17,8 +17,8 @@ CREATE TABLE IF NOT EXISTS charity.organizations
     financial_year_end text COLLATE pg_catalog."default",
     due_date date,
     active boolean,
-    created_on timestamp without time zone NOT NULL,
-    updated_on timestamp without time zone
+    created_on_utc timestamp without time zone NOT NULL,
+    updated_on_utc timestamp without time zone
 )
 
 TABLESPACE pg_default;
