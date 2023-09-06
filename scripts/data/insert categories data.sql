@@ -15,7 +15,7 @@ VALUES
 (12, 'Homes for Children with Special Needs', 'A facility for children with psychological and emotional difficulties, disabilities, chronic illnesses, alcohol or drug addictions, psychiatric conditions or who need assistance with the transition when leaving the centre at the age of 18.'),
 (13, 'Media and communications', 'Production and dissemination of information and communication, includes radio and TV stations, publishing of books, journals, newspapers, and newsletters, film production, libraries'),
 (14, 'Ethnic associations ', 'Organizations that promote the interests of, or provide services to, members belonging to a specific ethnic heritage '),
-(15, 'Animal protection and welfare ', 'Animal protection and welfare services; includes animal shelters and humane societies'),
+(15, 'Animals & Wildlife', 'Animal protection, hospitals, research and welfare services; includes animal shelters, zoos, wildlife protection, veterinary services and humane societies'),
 (16, 'Civic associations', 'Programs and services to encourage and spread civic mindedness '),
 (17, 'Social sciences, policy studies ', 'Research and analysis in the social sciences and policy area'),
 (18, 'Temporary shelters', 'Organizations providing temporary shelters to the homeless, includes travelers aid, and temporary housing'),
