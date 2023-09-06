@@ -31,7 +31,7 @@ VALUES
 (28, 'Health treatment, primarily outpatient', 'Organizations that provide primarily outpatient health services- e.g., health clinics, vaccination centers '),
 (29, 'Development assistance associations ', 'Programs and projects that promote social and economic development abroad'),
 (30, 'Grant-making foundations ', 'Private foundations, including corporate foundations, community foundations and independent public-law foundations '),
-(31, 'Rhino Conservation', 'Wildlife Protection'),
+
 (32, 'Legal services', 'Legal services, advice and assistance in dispute resolution and court related matters'),
 (33, 'Exchange/friendship/cultural programs ', 'Programs and services designed to encourage mutual respect and friendship internationally'),
 (34, 'ECD and Partial Care Centres', 'A place that cares for more than 6 pre-school children for part of the day. It is non-residential. ECD services include crèches, pre-schools & day-care centres & also;• After-school supervision & partial care for children of all ages• ECD outreach program'),
@@ -41,11 +41,11 @@ VALUES
 (38, 'Medical research', 'Research in the medical field, includes research on specific diseases, disorders, or medical disciplines '),
 (39, 'Job training programs ', 'Organizations providing and supporting apprenticeship programs, internships, on-the-job training, and other training programs'),
 (40, 'Adoption Services', 'A facility which helps in the process of adoption. Adoption is defined as a child being placed in the permanent care of a person other than a biological parent, by a court order.'),
-(41, 'Zoos and aquariums', ''),
+
 (42, 'Community-Based Care Services for Children', 'Drop-in-centre/ISIBINDI. A drop-in centre is a community-based, non-residential facility providing basic services aimed at meeting the emotional, physical and social development needs of vulnerable children. '),
 (43, 'Crisis intervention ', 'Outpatient services and counsel in acute mental health situations; includes suicide prevention and support to victims of assault and abuse '),
 (44, 'Services to the elderly', 'Organizations providing geriatric care, includes in-home services, homemaker services, transport facilities, recreation, meal programs and other services geared towards senior citizens. (Does not include residential nursing homes) '),
-(45, 'Wildlife preservation and protection', 'Wildlife preservation and protection; includes sanctuaries and refuges '),
+
 (46, 'Advocacy organizations', 'Organizations that protect the rights and promote the interest of specific groups of people- e.g., the physically handicapped, the elderly, children, and women'),
 (47, 'Elementary, primary and secondary Education ', 'Education at elementary, primary and secondary levels; includes pre-school organizations other than day care '),
 (48, 'Child Protection', 'An organization involved with identifying, reporting and supporting abused and neglected children. Also provides for placement of children in foster care.'),
@@ -58,7 +58,7 @@ VALUES
 (55, 'Services to people with disabilities ', 'Services for the handicapped; includes homes, other nursing homes; transport facilities, recreation and other specialized services.'),
 (56, 'Museums ', 'General and specialized museums covering art, history, sciences, technology, culture '),
 (57, 'Family services ', 'Services to families, includes family life/parent education, single parent agencies and services, family violence shelters and services'),
-(58, 'Veterinary services ', 'Animal hospitals and services providing care to farm and household animals and pets'),
+
 (59, 'International human rights and peace organizations', 'Organizations which promote and monitor human rights and peace internationally '),
 (60, 'Housing assistance', 'Organizations providing housing search, legal services and related assistance'),
 (61, 'Housing association ', 'Develop, construction, management, leasing, financing and rehabilitation of housing'),
@@ -66,7 +66,7 @@ VALUES
 (63, 'Self-help and other personal social services', 'Programs and services for self-help and development, includes support groups, personal counseling, credit counseling/money management services '),
 (64, 'Performing arts ', 'Performing arts centers, companies, and associations; includes theatres, dance, ballet, opera, orchestras, chorals and music ensembles '),
 (65, 'Fund-raising organizations', 'Federated, collective fund-raising organizations, includes lotteries '),
-(66, 'Animal welfare', 'Research into the lifestyle and habitats of cheetahs for the purpose of promoting their welfare'),
+
 (67, 'Public health and wellness education', 'Public health promoting and health education; includes sanitation screening for potential health hazards, first aid training and services and family planning services '),
 (68, 'Temporary Safe Care/Place of Safety', 'A facility where vulnerable or orphaned children are placed by court orders in cases of emergency. These are usually short term until permanent alterative arrangements are made.'),
 (69, 'Recreation and social clubs ', 'Provision of recreational facilities and services to individuals and communities; includes playground associations, country clubs, men`s and women`s clubs, touring clubs and leisure clubs'),
