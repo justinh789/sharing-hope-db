@@ -27,7 +27,7 @@ VALUES
 (24, 'Natural resources conservation and protection ', 'Conservation and preservation of natural resources, including land, water, energy and plant resources for the general use and enjoyment of the public'),
 (25, 'Environment beautification and open spaces', 'botanical gardens, arboreta, horticultural programs and landscape services; includes organizations promoting anti-litter campaigns, programs to preserve the parks, green spaces in urban or rural areas, and city and highway beautification programs'),
 (26, 'Business associations ', 'Organizations that work to promote, regulate and safeguard the interests of special branches of business e.g.. Manufacturers associations, farmers association, bankers association'),
-(27, 'Economic Development', 'Programs and services to improve economic infrastructure and capacity; includes building of infrastructure like roads, financial services such as credit and savings associations, entrepreneurial programs, technical and managerial consulting & rural devel '),
+(27, 'Economic Development', 'Programs and services to improve economic infrastructure and capacity; includes building of infrastructure like roads, financial services such as credit and savings associations, entrepreneurial programs, technical and managerial consulting & rural development'),
 (28, 'Health treatment, primarily outpatient', 'Organizations that provide primarily outpatient health services- e.g., health clinics, vaccination centers '),
 (29, 'Development assistance associations ', 'Programs and projects that promote social and economic development abroad'),
 (30, 'Grant-making foundations ', 'Private foundations, including corporate foundations, community foundations and independent public-law foundations '),
@@ -69,7 +69,7 @@ VALUES
 
 (67, 'Public health and wellness education', 'Public health promoting and health education; includes sanitation screening for potential health hazards, first aid training and services and family planning services '),
 (68, 'Temporary Safe Care/Place of Safety', 'A facility where vulnerable or orphaned children are placed by court orders in cases of emergency. These are usually short term until permanent alterative arrangements are made.'),
-(69, 'Recreation and social clubs ', 'Provision of recreational facilities and services to individuals and communities; includes playground associations, country clubs, men`s and women`s clubs, touring clubs and leisure clubs'),
+(69, 'Recreation and social clubs ', 'Provision of recreational facilities and services to individuals and communities; includes playground associations, country clubs, men`s and women`s clubs, clubs clubs and leisure clubs'),
 (70, 'Science and Technology ', 'Research in the physical and life sciences, engineering and technology '),
 (71, 'Higher education', 'Higher learning, providing academic degrees; includes universities, business management schools; law schools; medical schools'),
 (72, 'Nursing Homes ', 'Inpatient convalescent care, residential care as well as primary health care services; includes homes for the frail elderly, nursing homes for the severely handicapped'),
