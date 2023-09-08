@@ -9,7 +9,7 @@ VALUES
 (5, 'Animal welfare', 'Research into the lifestyle and habitats of cheetahs for the purpose of promoting their welfare', 10),
 (6, 'Animal protection and welfare', 'Animal protection and welfare services; includes animal shelters and humane societies', 10),
 -- Condensed to category 37. Public & Mental Health and Medical services. (was just Public health and wellness education)
-(7, 'Public health and wellness education', 'Public health promoting and health education; includes sanitation screening for potential health hazards, first aid training and services and family planning services', 37)
+(7, 'Public health and wellness education', 'Public health promoting and health education; includes sanitation screening for potential health hazards, first aid training and services and family planning services', 37),
 (8, 'Psychiatric hospitals', 'Inpatient care and treatment for the mentally ill', 37),
 (9, 'Hospitals ', 'Primarily inpatient medical care and treatment',37),
 (10, 'Rehabilitative medical services ', 'Outpatient therapeutic care; includes nature cure centers, yoga clinics, physical therapy centers', 37),
@@ -49,7 +49,7 @@ VALUES
 (37, 'Elementary, primary and secondary Education', 'Education at elementary, primary and secondary levels; includes pre-school organizations other than day care', 7),
 (38, 'Higher education', 'Higher learning, providing academic degrees; includes universities, business management schools; law schools; medical schools', 7),
 (39, 'Vocational/technical schools', 'Technical and vocational training specifically geared towards gaining employment; includes trade schools; paralegal training, secretarial schools', 7),
-(40, 'Family services ', 'Services to families, includes family life/parent education, single parent agencies and services, family violence shelters and services', 7)/* Family services is both a sub category AND category*/
+(40, 'Family services ', 'Services to families, includes family life/parent education, single parent agencies and services, family violence shelters and services', 7),/* Family services is both a sub category AND category*/
 -- Condensed to category 16. NAME TODO (was Natural resources conservation and protection)
 (41, 'Natural resources conservation and protection', 'Conservation and preservation of natural resources, including land, water, energy and plant resources for the general use and enjoyment of the public', 16),
 (42, 'Pollution abatement and control ', 'Organizations that promote clean air, clean water, reducing and preventing noise pollution, radiation control, hazardous wastes and toxic substances, solid waste management, recycling programs, and global warming', 16),
