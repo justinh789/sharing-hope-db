@@ -1,6 +1,6 @@
 CREATE TABLE IF NOT EXISTS charity.donations
 (
-    id integer NOT NULL,
+    donation_id integer NOT NULL,
     user_id integer NOT NULL,
     donation_type_id integer NOT NULL,
     charity_id integer,

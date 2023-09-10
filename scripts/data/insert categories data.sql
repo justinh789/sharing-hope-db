@@ -1,5 +1,5 @@
 INSERT INTO 
-	charity.categories(id, name, description)
+	charity.categories(category_id, name, description)
 VALUES 
 (1, 'Vocational counselling and guidance ', 'Vocational training and guidance, career counseling, testing, and related services'),
 (2, 'Political parties and organizations ', 'Activities and services to support the placing of particular candidates into political office; includes dissemination of information, public relations and political fundraising'),

@@ -4,7 +4,7 @@
 CREATE TABLE IF NOT EXISTS charity.locations
 (
     location_id uuid PRIMARY KEY,
-	organization_id uuid REFERENCES charity.organizations (id),
+	organization_id uuid REFERENCES charity.organizations (organization_id),
     postal_address1 text COLLATE pg_catalog.default,
     postal_address2 text COLLATE pg_catalog.default,
     postal_address3 text COLLATE pg_catalog.default,

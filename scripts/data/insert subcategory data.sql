@@ -1,5 +1,5 @@
 INSERT INTO charity.subcategories(
-	id, name, description, category_id)
+	subcategory_id, name, description, category_id)
 VALUES 
 --Condensed to category 10. Animals & Wildlife. (was just Animal protection and welfare)
 (1, 'Rhino Conservation', 'Wildlife Protection', 10),

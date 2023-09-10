@@ -6,7 +6,7 @@ CREATE TABLE IF NOT EXISTS charity.categories
     category_id integer NOT NULL,
     name text COLLATE pg_catalog."default",
     description text COLLATE pg_catalog."default",
-    CONSTRAINT categories_pkey PRIMARY KEY (id)
+    CONSTRAINT categories_pkey PRIMARY KEY (category_id)
 )
 
 TABLESPACE pg_default;

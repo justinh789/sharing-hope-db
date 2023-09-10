@@ -13,7 +13,7 @@ CREATE TABLE IF NOT EXISTS charity.contacts
     created_on_utc timestamp without time zone NOT NULL,
     updated_on_utc timestamp without time zone,
     CONSTRAINT contacts_organization_id_fkey FOREIGN KEY (organization_id)
-        REFERENCES charity.organizations (id) MATCH SIMPLE
+        REFERENCES charity.organizations (organization_id) MATCH SIMPLE
         ON UPDATE NO ACTION
         ON DELETE NO ACTION
 )
