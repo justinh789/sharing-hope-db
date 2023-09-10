@@ -3,7 +3,7 @@
 
 CREATE TABLE IF NOT EXISTS charity.organizations
 (
-    id uuid PRIMARY KEY,
+    organization_id uuid PRIMARY KEY,
     npo_name text COLLATE pg_catalog."default",
     npo_reg_number text COLLATE pg_catalog."default",
     type_of_organization text COLLATE pg_catalog."default",

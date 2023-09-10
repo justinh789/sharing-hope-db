@@ -3,7 +3,7 @@
 
 CREATE TABLE IF NOT EXISTS charity.subcategories
 (
-    id integer NOT NULL,
+    subcategory_id integer NOT NULL,
     name text COLLATE pg_catalog."default",
     description text COLLATE pg_catalog."default",
     category_id integer REFERENCES charity.categories (id),

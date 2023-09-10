@@ -3,7 +3,7 @@
 
 CREATE TABLE IF NOT EXISTS charity.organizations_categories_map
 (
-    id bigint NOT NULL,
+    organizations_categories_map_id bigint NOT NULL,
     organization_id uuid NOT NULL,
     category_id integer NOT NULL,
     subcategory_id integer,

@@ -1,8 +1,8 @@
 CREATE TABLE IF NOT EXISTS charity.user_types
 (
-    id integer NOT NULL,
-    type_description character varying COLLATE pg_catalog."default",
-    type_validation character(1) COLLATE pg_catalog."default"
+    user_type_id integer NOT NULL,
+    type_description text COLLATE pg_catalog."default",
+    type_validation text COLLATE pg_catalog."default"
 )
 
 TABLESPACE pg_default;

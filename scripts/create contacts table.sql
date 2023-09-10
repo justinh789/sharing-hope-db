@@ -3,7 +3,7 @@
 
 CREATE TABLE IF NOT EXISTS charity.contacts
 (
-    id uuid PRIMARY KEY,
+    contact_id uuid PRIMARY KEY,
     organization_id uuid,
 	contact_person text COLLATE pg_catalog."default",
 	contact_email text COLLATE pg_catalog."default",

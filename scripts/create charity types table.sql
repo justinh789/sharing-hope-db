@@ -1,6 +1,6 @@
 CREATE TABLE IF NOT EXISTS charity.charity_types
 (
-    id integer NOT NULL,
+    charity_type_id integer NOT NULL,
     type_name text COLLATE pg_catalog."default" NOT NULL,
     type_description text COLLATE pg_catalog."default",
     sector text COLLATE pg_catalog."default" NOT NULL,
