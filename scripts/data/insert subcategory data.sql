@@ -18,8 +18,8 @@ VALUES
 (13, 'Mental health treatment ', 'Outpatient treatment for mentally ill patients; includes community mental health centers, and halfway homes', 37),
 (14, 'Health treatment, primarily outpatient', 'Organizations that provide primarily outpatient health services- e.g., health clinics, vaccination centers ', 37),
 -- Condensed to category  27. Elderly (was Services to the elderly)
-(15, 'Elderly', 'Organizations providing geriatric care, includes in-home services, homemaker services, transport facilities, recreation, meal programs and other services geared towards senior citizens. (Does not include residential nursing homes)', 27),
-(16, 'Nursing Homes ', 'Inpatient convalescent care, residential care as well as primary health care services; includes homes for the frail elderly, nursing homes for the severely handicapped', 27),
+(15, 'Elderly services', 'Organizations providing geriatric care, includes in-home services, homemaker services, transport facilities, recreation, meal programs and other services geared towards senior citizens. (Does not include residential nursing homes)', 27),
+(16, 'Nursing homes ', 'Inpatient convalescent care, residential care as well as primary health care services; includes homes for the frail elderly, nursing homes for the severely handicapped', 27),
 -- Condensed to category 42. Arts & Architecture (was Visual arts, architecture, ceramic art)
 (17, 'Visual arts, architecture, ceramic art', 'Production, dissemination and display of visual arts and architecture, includes sculpture, photographic societies, painting, drawing, design centers and architectural associations', 42),
 (18, 'Performing arts ', 'Performing arts centers, companies, and associations; includes theatres, dance, ballet, opera, orchestras, chorals and music ensembles', 42),
