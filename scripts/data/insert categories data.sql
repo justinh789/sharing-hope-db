@@ -37,7 +37,7 @@ VALUES
 (34, 'Community and neighborhood Organizations', 'Organizations working towards improving the quality of life within communities or neighborhoods - e.g., squatters associations, local development Organizations, poor peoples cooperatives ', 'MaterialCommunityIcons.google-circles-communities'),
 (35, 'Self-help and other personal social services', 'Programs and services for self-help and development, includes support groups, personal counseling, credit counseling/money management services ', 'MaterialIcons.self-improvement'),
 (36, 'Fund-raising organizations', 'Federated, collective fund-raising organizations, includes lotteries ', 'MaterialCommunityIcons.cash-plus'),
-(37, 'Public & Mental Health and Medical services', 'FontAwesome5.hand-holding-medical'),
+(37, 'Public & Mental Health and Medical services', 'TODO', 'FontAwesome5.hand-holding-medical'),
 (38, 'Recreation and social clubs ', 'Provision of recreational facilities and services to individuals and communities; includes playground associations, country clubs, men`s and women`s clubs, clubs clubs and leisure clubs', 'MaterialIcons.sports-tennis'),
 (39, 'Science and Technology ', 'Research in the physical and life sciences, engineering and technology ', 'MaterialIcons.science'),
 (40, 'Material assistance ', 'Organizations providing food, clothing, transport and other forms of assistance, includes food banks and clothing distribution centers ', 'FontAwesome6.shirt'),
