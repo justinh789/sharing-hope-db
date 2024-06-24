@@ -43,6 +43,6 @@ VALUES
 (40, 'Material assistance ', 'Organizations providing food, clothing, transport and other forms of assistance, includes food banks and clothing distribution centers ', 'FontAwesome6.shirt'),
 (41, 'Service clubs ', 'Membership organizations providing services to members and local communities, for example: Lions, Zonta International, Rotary Club, Kiwanis', 'MaterialIcons.groups-3'),
 (42, 'Art & Architecture', 'Production, dissemination and display of visual arts and architecture & performing art centres, includes sculpture, photographic societies, painting, drawing, design centers and architectural associations, theatres, dance, ballet, opera, orchestras, chorals and music ensembles', 'Entypo.brush'),
-(43, 'Refugee assistance', 'Organizations providing food, clothing, shelter and services to refugees and immigrants'),
-(44, 'Labor unions', 'Organizations that promote, protect and regulate the rights and interests of employees '),
-(45, 'Associations ', 'TODO')
+(43, 'Refugee assistance', 'Organizations providing food, clothing, shelter and services to refugees and immigrants', 'MaterialIcons.travel-explore'),
+(44, 'Labor unions', 'Organizations that promote, protect and regulate the rights and interests of employees ', 'FontAwesome6.hand-back-fist'),
+(45, 'Associations ', 'TODO', 'FontAwesome6.people-group')
