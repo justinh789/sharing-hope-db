@@ -1,27 +1,25 @@
--- Table: charity.organizations
--- DROP TABLE IF EXISTS charity.organizations;
+IF NOT EXISTS (SELECT 1 FROM sys.schemas WHERE name = 'charity')
+    EXEC('CREATE SCHEMA charity');
+GO
 
-CREATE TABLE IF NOT EXISTS charity.organizations
+CREATE TABLE charity.tOrganizations
 (
-    organization_id uuid PRIMARY KEY,
-    npo_name text COLLATE pg_catalog."default",
-    npo_reg_number text COLLATE pg_catalog."default",
-    type_of_organization text COLLATE pg_catalog."default",
-    registration_status text COLLATE pg_catalog."default",
-    date_registered date,
-    sector text COLLATE pg_catalog."default",
-    objective text COLLATE pg_catalog."default",
-    theme text COLLATE pg_catalog."default",
-    description text COLLATE pg_catalog."default",
-    type_of_deregistration text COLLATE pg_catalog."default",
-    financial_year_end text COLLATE pg_catalog."default",
-    due_date date,
-    active boolean,
-    created_on_utc timestamp without time zone NOT NULL,
-    updated_on_utc timestamp without time zone
-)
+    OrganizationId INT NOT NULL PRIMARY KEY IDENTITY(1,1),
+    NpoName NVARCHAR(MAX) NULL,
+    NpoRegNumber VARCHAR(20) NULL,
+    TypeOfOrganization VARCHAR(50) NULL,
+    RegistrationStatus VARCHAR(20) NULL,
+    DateRegistered DATE NULL,
+    Sector VARCHAR(100) NULL,
+    Objective VARCHAR(100) NULL,
+    Theme VARCHAR(50) NULL,
+    Description VARCHAR(250) NULL,
+    TypeOfDeregistration VARCHAR(50) NULL,
+    FinancialYearEnd VARCHAR(12) NULL,
+    DueDate DATE NULL,
+    Active BIT NULL,
+    CreatedOnUtc DATETIME2 NOT NULL,
+    UpdatedOnUtc DATETIME2 NULL
+);
 
-TABLESPACE pg_default;
 
-ALTER TABLE IF EXISTS charity.organizations
-    OWNER to postgres;
