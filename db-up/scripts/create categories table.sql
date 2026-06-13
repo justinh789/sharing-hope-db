@@ -14,7 +14,7 @@ CREATE TABLE [charity].[tCategories](
     [CategoryId] [INT] NOT NULL,
     [Name] [NVARCHAR](255) NOT NULL,
     [Description] [NVARCHAR](255) NOT NULL,
-    [UiIconName] [VARCHAR](25) NOT NULL,
+    [UiIconName] [VARCHAR](50) NOT NULL,
     [CreatedOnUtc] DATETIME2 NOT NULL DEFAULT(GETDATE()),
     [UpdatedOnUtc] DATETIME2 NULL,
     [IsDeleted] BIT
