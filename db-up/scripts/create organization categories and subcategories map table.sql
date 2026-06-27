@@ -12,6 +12,8 @@ CREATE TABLE charity.tOrganizationsCategoriesMap
     OrganizationId INT NOT NULL,
     CategoryId INT NOT NULL,
     SubCategoryId INT NULL,
+    CreatedOnUtc DATETIME2 NOT NULL DEFAULT(GETDATE()),
+    UpdatedOnUtc DATETIME2 NULL,
     CONSTRAINT PK_tOrganizationsCategoriesMap PRIMARY KEY (OrganizationsCategoriesMapId),
     CONSTRAINT FK_tOrganizationsCategoriesMap_tCategories FOREIGN KEY (CategoryId)
         REFERENCES charity.tCategories(CategoryId)
